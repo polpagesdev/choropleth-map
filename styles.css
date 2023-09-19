@@ -1,0 +1,35 @@
+#container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  padding: 50px 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+#chart {
+	background: #eee;
+	box-shadow: 3px 3px 10px rgb(0,0,0,0.4);
+}
+
+#title {
+	font-size: 1.8em;
+}
+
+#legend-label {
+	text-anchor: end;
+	dominant-baseline: central;
+	font-size: 0.8em;
+}
+
+#tooltip {
+	position: absolute;
+	border-radius: 5px;
+	padding: 0.5em 2em;
+	box-shadow: 0 0 3px black;
+	opacity: 0.9;
+	visibility: hidden;
+	transition: visibility 100ms;
+	font-size: 0.8em;
+	text-align: center;
+}
